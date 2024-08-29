@@ -1,6 +1,7 @@
 
-| ![Власова Елена](vlasova_elena.jpeg)    | 35 лет,  Рязань [+7 (905) 185-38-36](tel:+79051853836)  [Lena_Vlasova](https://t.me/Lena_Vlasova)  [e-mail](mailto:elenka126@yandex.ru)  Портфолио: [Behance](https://www.behance.net/VlasovaElena) |
+| ![Власова Елена](vlasova_elena.jpeg)    | 35 лет  <br> Рязань <br>Телефон: [+7 (905) 185-38-36](tel:+79051853836)  <br>Telegram: [Lena_Vlasova](https://t.me/Lena_Vlasova)  <br>Email: [e-mail](mailto:elenka126@yandex.ru)  <br>Портфолио: [Behance](https://www.behance.net/VlasovaElena) |
 | -------- | ------- |
+| | |
 
 ## Обо мне:
 

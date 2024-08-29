@@ -1,16 +1,6 @@
-![Власова Елена](vlasova_elena.jpeg)
 
-## **UI/UX - дизайнер**
-
-35 лет, Рязань
-
-[+7 (905) 185-38-36](tel:+79051853836)
-
-[Lena_Vlasova](https://t.me/Lena_Vlasova)
-
-[e-mail](mailto:elenka126@yandex.ru)
-
-Портфолио: [Behance](https://www.behance.net/VlasovaElena)
+| ![Власова Елена](vlasova_elena.jpeg)    | 35 лет,  Рязань [+7 (905) 185-38-36](tel:+79051853836)  [Lena_Vlasova](https://t.me/Lena_Vlasova)  [e-mail](mailto:elenka126@yandex.ru)  Портфолио: [Behance](https://www.behance.net/VlasovaElena) |
+| -------- | ------- |
 
 ## Обо мне:
 

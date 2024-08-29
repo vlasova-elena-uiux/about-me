@@ -109,7 +109,7 @@ const CONTACTS = [
     icon: 'behance.svg'
   },
   {
-    title: 'Резюме',
+    title: 'hh.ru',
     value: 'Резюме',
     link: 'https://ryazan.hh.ru/applicant/resumes/view?resume=cbdf8481ff0c5e6f6c0039ed1f425774567466',
     icon: 'hh.svg'
@@ -150,7 +150,9 @@ export default function Home() {
           <div>
             {CONTACTS.map((c) => (
               <div key={c.title} className='my-4 flex items-center'>
-                <Image alt={c.title} src={c.icon} width={36} height={36} className='mr-3'/>
+                <div className='bg-white mr-3 rounded-md'>
+                  <Image alt={c.title} src={c.icon} width={36} height={36} />
+                </div>
                 <a href={c.link} className='text-indigo-700 dark:text-indigo-200'>{c.value}</a>
               </div>
             ))}

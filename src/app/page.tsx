@@ -131,7 +131,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className='container mx-auto p-12 bg-white rounded-xl m-4 shadow-xl'>
+    <main className='container mx-auto p-12 bg-white rounded-xl m-4 shadow-xl dark:bg-gray-900'>
       <header>
         <h1 className='text-5xl font-bold my-6'>{CONFIG.title}</h1>
       </header>
@@ -151,7 +151,7 @@ export default function Home() {
             {CONTACTS.map((c) => (
               <div key={c.title} className='my-4 flex items-center'>
                 <Image alt={c.title} src={c.icon} width={36} height={36} className='mr-3'/>
-                <a href={c.link} className='text-indigo-700'>{c.value}</a>
+                <a href={c.link} className='text-indigo-700 dark:text-indigo-200'>{c.value}</a>
               </div>
             ))}
           </div>
@@ -190,7 +190,7 @@ export default function Home() {
                       ))}
                     </ul>
                     {resp.link && (
-                      <a href={resp.link} className='text-indigo-700'>проект на Behance</a>
+                      <a href={resp.link} className='text-indigo-700 dark:text-indigo-200'>проект на Behance</a>
                     )}
                   </div>
                 ))}

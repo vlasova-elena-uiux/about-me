@@ -45,7 +45,7 @@ const EXPERIENCE = [
     dateTo: 'сентябрь 2023',
     company: 'Яндекс Практикум ',
     responsibilities: [{
-      description: 'За время обучения выполнила 4 учебных проекта. \n В рамках проекта «Культура и традиции своего города»:',
+      description: 'За время обучения выполнила 4 учебных проекта. <br/> В рамках проекта «Культура и традиции своего города»:',
       items: [
         'Киллер фича - карта маршрутов разной активности по достопримечательностям города',
         'Провела опрос, написала User Stories',
@@ -185,7 +185,7 @@ export default function Home() {
                 <p className='text-lg'>{item.dateFrom} - {item.dateTo} {item.company}</p>
                 {item.responsibilities.map(resp => (
                   <div key={resp.description} className='my-2'>
-                    <p className='my-1'>{resp.description}</p>
+                    <p className='my-1' dangerouslySetInnerHTML={{ __html: resp.description}}></p>
                     <ul className='list-disc list-inside'>
                       {resp.items.map(i=>(
                         <li key={i}>{i}</li>

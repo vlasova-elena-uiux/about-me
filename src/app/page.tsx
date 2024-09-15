@@ -148,7 +148,7 @@ export default function Home() {
   return (
     <main className='container mx-auto p-12 bg-white rounded-xl m-4 shadow-xl dark:bg-gray-900'>
       <header>
-        <h1 className='ABOUT_ME-5xl font-bold my-6'>{CONFIG.title}</h1>
+        <h1 className='text-5xl font-bold my-6'>{CONFIG.title}</h1>
       </header>
       <section className='flex flex-col lg:flex-row'>
         <aside className='mr-6 w-full lg:w-1/3'>
@@ -160,7 +160,7 @@ export default function Home() {
           />
         </aside>
         <article className='w-full lg:w-2/3'>
-          <h2 className='ABOUT_ME-2xl font-bold'>{CONFIG.subtitle}</h2>
+          <h2 className='text-2xl font-bold'>{CONFIG.subtitle}</h2>
           <p className='my-4'>{ABOUT_ME.age}</p>
           <div>
             {CONTACTS.map((c) => (
@@ -168,7 +168,7 @@ export default function Home() {
                 <div className='bg-white mr-3 rounded-md'>
                   <Image alt={c.title} src={c.icon} width={36} height={36} />
                 </div>
-                <a href={c.link} className='ABOUT_ME-indigo-700 dark:ABOUT_ME-indigo-200'>{c.value}</a>
+                <a href={c.link} className='text-indigo-700 dark:text-indigo-200'>{c.value}</a>
               </div>
             ))}
           </div>
@@ -177,13 +177,13 @@ export default function Home() {
       <section className='my-6 flex flex-col lg:flex-row'>
         <aside className='mr-6 w-full lg:w-1/3'>
           <article>
-            <h2 className='ABOUT_ME-2xl font-bold my-4'>{ABOUT_ME.aboutMe.title}</h2>
+            <h2 className='text-2xl font-bold my-4'>{ABOUT_ME.aboutMe.title}</h2>
             {ABOUT_ME.aboutMe.paragraphs.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
           </article>
           <article className='my-6' >
-            <h2 className='ABOUT_ME-2xl font-bold'>{ABOUT_ME.skills}</h2>
+            <h2 className='text-2xl font-bold'>{ABOUT_ME.skills}</h2>
             <ul className='list-disc list-inside my-4'>
             {SKILLS.map(s => (
               <li key={s}>{s}</li>
@@ -193,11 +193,11 @@ export default function Home() {
         </aside>
         <section className='w-full lg:w-2/3'>
           <article>
-            <h2 className='ABOUT_ME-2xl font-bold'>{ABOUT_ME.experience}</h2>
+            <h2 className='text-2xl font-bold'>{ABOUT_ME.experience}</h2>
             {EXPERIENCE.map(item => (
               <article key={`${item.title}-${item.dateFrom}-${item.dateTo}`} className='my-4'>
-                <h3 className='ABOUT_ME-2xl'>{item.title}</h3>
-                <p className='ABOUT_ME-lg'>{item.dateFrom} - {item.dateTo} {item.company}</p>
+                <h3 className='text-2xl'>{item.title}</h3>
+                <p className='text-lg'>{item.dateFrom} - {item.dateTo} {item.company}</p>
                 {item.responsibilities.map(resp => (
                   <div key={resp.description} className='my-2'>
                     <p className='my-1' dangerouslySetInnerHTML={{ __html: resp.description}}></p>
@@ -207,7 +207,7 @@ export default function Home() {
                       ))}
                     </ul>
                     {resp.link && (
-                      <a href={resp.link} className='ABOUT_ME-indigo-700 dark:ABOUT_ME-indigo-200'>{ABOUT_ME.behanceProject}</a>
+                      <a href={resp.link} className='text-indigo-700 dark:text-indigo-200'>{ABOUT_ME.behanceProject}</a>
                     )}
                   </div>
                 ))}
@@ -215,10 +215,10 @@ export default function Home() {
             ))}
           </article>
           <article>
-            <h2 className='ABOUT_ME-2xl font-bold my-4'>{ABOUT_ME.education}</h2>
-            <p className='ABOUT_ME-lg'>{EDUCATION.date}, {EDUCATION.spec}</p>
-            <p className='ABOUT_ME-lg'>{EDUCATION.fac}</p>
-            <p className='ABOUT_ME-lg'>{EDUCATION.university}</p>
+            <h2 className='text-2xl font-bold my-4'>{ABOUT_ME.education}</h2>
+            <p className='text-lg'>{EDUCATION.date}, {EDUCATION.spec}</p>
+            <p className='text-lg'>{EDUCATION.fac}</p>
+            <p className='text-lg'>{EDUCATION.university}</p>
           </article>
         </section>
       </section>
